@@ -18,10 +18,32 @@ body{
 h1
 {
     color: gray;
+form input {
+    background-color: rgb(140,150,170);
+    border: rgb(220, 21, 236 );
+
 }
+
+form input:hover {
+    background-color: rgb(236, 21, 60 )
+
+}
+
 #btnSimple{
-    backgroundcolor: rgb(170,120,180);
+    padding: 10px;
+    background-color: rgb(170,200,255);
+    text-decoration-color: rgb(150,150,150);
 }
+#btnSimple:hover{
+    background-color: rgb(21, 24, 236);
+    border-color: rgb(68, 236, 21);
+    transform: scale(2,1);
+}
+form select {
+    background: rgb(30, 209, 213);
+
+}
+
 
 
 
